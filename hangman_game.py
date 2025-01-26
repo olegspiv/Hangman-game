@@ -69,6 +69,6 @@ class Hangman:
 
 # Example Usage
 if __name__ == "__main__":
-    word_to_guess = 'bu'
+    word_to_guess = 'word'
     game = Hangman(word_to_guess)
     game.play()
